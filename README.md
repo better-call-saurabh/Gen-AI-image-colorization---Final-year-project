@@ -1,22 +1,15 @@
 # Gen-AI-image-colorization---Final-year-project
-Image Colorization using Deep Learning
+#Image Colorization using Deep Learning:
 This project demonstrates image colorization using a convolutional neural network (CNN) implemented in PyTorch. The model is trained on the CIFAR-10 dataset and can predict colorized versions of grayscale images.
-
-Features
+#Features
 Dataset: Utilizes the CIFAR-10 dataset, which contains 60,000 32x32 color images across 10 classes.
 Model Architecture: A CNN model with multiple convolutional layers for extracting features and predicting the RGB color channels from grayscale images.
 Training on GPU: The code is optimized to run on GPU if available, significantly speeding up the training process.
-How to Run
+#How to Run
 Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/image-colorization.git
+git clone https://github.com/better-call-saurabh/Gen-AI-image-colorization---Final-year-project/
 cd image-colorization
 Install Dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
 Run the Jupyter Notebook: Open colorization_model2.ipynb in Jupyter and execute the cells to train the model.
 
